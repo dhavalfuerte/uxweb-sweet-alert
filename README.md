@@ -38,7 +38,7 @@ In this is step we need to create route for testing with argument. so open your 
 
 Here, we will add new method myNotification() in HomeController. In this method i use alert() for flash message so let's add following method on your home controller.
 
-<p>app/Http/Controllers/HomeController.php
+<pre>app/Http/Controllers/HomeController.php
 class HomeController extends Controller
 {
     /**
@@ -75,7 +75,7 @@ class HomeController extends Controller
 
         return view('my-notification');
     }
-}</p>
+}</pre>
 
 
 <h2>
