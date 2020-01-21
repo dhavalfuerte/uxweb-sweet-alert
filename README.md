@@ -32,13 +32,13 @@ In this is step we need to create route for testing with argument. so open your 
 
 <h2>routes/web.php</h2>
 
-<h3>Route::get('my-notification/{type}', 'HomeController@myNotification');</h3>
+<h3><pre>Route::get('my-notification/{type}', 'HomeController@myNotification');</pre></h3>
 
 <h2>Step 3: Add Controller Method</h2>
 
 Here, we will add new method myNotification() in HomeController. In this method i use alert() for flash message so let's add following method on your home controller.
 
-<pre>app/Http/Controllers/HomeController.php
+<h3><pre>app/Http/Controllers/HomeController.php
 class HomeController extends Controller
 {
     /**
@@ -75,14 +75,14 @@ class HomeController extends Controller
 
         return view('my-notification');
     }
-}</pre>
+}</pre></h3>
 
 
 <h2>
 Step 4: Add Blade File
 </h2>
 At Last we have to create my-notification.blade.php file and in that file i write code how to use sweetalert package. So let's create blade file and put that code.
-<h3><p>
+<h3><pre>
 resources/views/my-notification.blade.php
 
 <!DOCTYPE html>
@@ -102,19 +102,19 @@ resources/views/my-notification.blade.php
 
 
 </body>
-</html></p>
+</html></pre>
 </h3>
 
 Now we are ready to run our example so run bellow command so quick run:
 
-<h3>php artisan serve</h3>
+<h3><pre>php artisan serve</pre></h3>
 
 Now you can open bellow url on your browser:
 
-<h3>http://localhost:8000/my-notification/success
+<h3><pre>http://localhost:8000/my-notification/success
 
 http://localhost:8000/my-notification/basic
 
 http://localhost:8000/my-notification/message
-
+</pre>
 </h3>
