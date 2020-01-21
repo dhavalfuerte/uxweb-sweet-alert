@@ -38,7 +38,8 @@ In this is step we need to create route for testing with argument. so open your 
 
 Here, we will add new method myNotification() in HomeController. In this method i use alert() for flash message so let's add following method on your home controller.
 
-<h3><pre>app/Http/Controllers/HomeController.php
+app/Http/Controllers/HomeController.php
+<h3><pre>
 class HomeController extends Controller
 {
     /**
@@ -82,8 +83,9 @@ class HomeController extends Controller
 Step 4: Add Blade File
 </h2>
 At Last we have to create my-notification.blade.php file and in that file i write code how to use sweetalert package. So let's create blade file and put that code.
-<h3><pre>
 resources/views/my-notification.blade.php
+<h3><p>
+
 
 <!DOCTYPE html>
 <html>
@@ -102,7 +104,7 @@ resources/views/my-notification.blade.php
 
 
 </body>
-</html></pre>
+</html></p>
 </h3>
 
 Now we are ready to run our example so run bellow command so quick run:
@@ -111,7 +113,8 @@ Now we are ready to run our example so run bellow command so quick run:
 
 Now you can open bellow url on your browser:
 
-<h3><pre>http://localhost:8000/my-notification/success
+<h3><pre>
+http://localhost:8000/my-notification/success
 
 http://localhost:8000/my-notification/basic
 
