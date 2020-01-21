@@ -1,3 +1,13 @@
+<pre>
+&lt;div class="html"&gt;
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;Title&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;p&gt;Unrendred html&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+&lt;/div&gt;
+</pre>
 <h1># uxweb-sweet-alert-laravel</h1>
 <h2>Step 1: Install uxweb/sweet-alert Package</h2>
 
