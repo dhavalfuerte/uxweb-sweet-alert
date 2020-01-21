@@ -9,7 +9,7 @@ After successfully install package, open config/app.php file and add service pro
 
 <h2>config/app.php</h2>
 
-<h3>'providers' => [
+<h3><pre>'providers' => [
 
 	....
 
@@ -23,7 +23,7 @@ After successfully install package, open config/app.php file and add service pro
 
 	'Alert' => UxWeb\SweetAlert\SweetAlert::class,
 
-]
+]</pre>
 </h3>
 
 <h2>Step 2: Add Route</h2>
