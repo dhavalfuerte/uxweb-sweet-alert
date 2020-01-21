@@ -95,9 +95,8 @@ resources/views/my-notification.blade.php
 	&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js">&lt;/script&gt;
     &lt;/head&gt;
     &lt;body&gt;
-    &lt;h1 class="text-center"&gt;Laravel Sweet Alert Notification &lt;/h1&gt;
-    @include('sweet::alert')
-
+    	&lt;h1 class="text-center"&gt;Laravel Sweet Alert Notification &lt;/h1&gt;
+    	&lt;p&gt;@include('sweet::alert')&lt;/p&gt;
     &lt;/body&gt;
 &lt;/html&gt;
 
