@@ -1,13 +1,3 @@
-<pre>
-&lt;div class="html"&gt;
-    &lt;html&gt;
-    &lt;head&gt;&lt;title&gt;Title&lt;/title&gt;&lt;/head&gt;
-    &lt;body&gt;
-    &lt;p&gt;Unrendred html&lt;/p&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-&lt;/div&gt;
-</pre>
 <h1># uxweb-sweet-alert-laravel</h1>
 <h2>Step 1: Install uxweb/sweet-alert Package</h2>
 
@@ -94,7 +84,7 @@ Step 4: Add Blade File
 </h2>
 At Last we have to create my-notification.blade.php file and in that file i write code how to use sweetalert package. So let's create blade file and put that code.
 resources/views/my-notification.blade.php
-<h3><code>
+<h3><pre>
 
 
 <!DOCTYPE html>
@@ -114,7 +104,25 @@ resources/views/my-notification.blade.php
 
 
 </body>
-</html></code>
+</html>
+</pre>
+<pre>
+&lt;html&gt;
+    &lt;head&gt;
+    	&lt;title&gt;Laravel Sweet Alert Notification&lt;/title&gt;
+	&lt;link rel="stylesheet" href="http://demo.itsolutionstuff.com/plugin/bootstrap-3.min.css"&gt;
+	&lt;script src="http://demo.itsolutionstuff.com/plugin/jquery.js">&lt;/script&gt;
+	&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" /&gt;
+	&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js">&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1 class="text-center"&gt;Laravel Sweet Alert Notification &lt;/h1&gt;
+    @include('sweet::alert')
+
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
 </h3>
 
 Now we are ready to run our example so run bellow command so quick run:
