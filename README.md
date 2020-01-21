@@ -84,7 +84,7 @@ Step 4: Add Blade File
 </h2>
 At Last we have to create my-notification.blade.php file and in that file i write code how to use sweetalert package. So let's create blade file and put that code.
 resources/views/my-notification.blade.php
-<h3><doc>
+<h3><xmp>
 
 
 <!DOCTYPE html>
@@ -104,7 +104,7 @@ resources/views/my-notification.blade.php
 
 
 </body>
-</html></doc>
+</html></xmp>
 </h3>
 
 Now we are ready to run our example so run bellow command so quick run:
